@@ -1,0 +1,5 @@
+rootProject.name = 'napster'
+include ':app'
+
+setBinding(new Binding([gradle: this]))
+evaluate(new File(settingsDir, '../.dart_tool/flutter_build/app_plugin_loader.gradle'))
