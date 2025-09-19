@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 54;
+  objects = {
+
+/* Begin PBXBuildFile section */
+    1FAD0E4E2AFA4C1500A5ACF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD0E4D2AFA4C1500A5ACF8 /* AppDelegate.swift */; };
+    1FAD0E502AFA4C2100A5ACF8 /* GeneratedPluginRegistrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD0E4F2AFA4C2100A5ACF8 /* GeneratedPluginRegistrant.swift */; };
+    1FAD0E532AFA4C6100A5ACF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAD0E522AFA4C6100A5ACF8 /* Main.storyboard */; };
+    1FAD0E552AFA4C7400A5ACF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAD0E542AFA4C7400A5ACF8 /* LaunchScreen.storyboard */; };
+    1FAD0E572AFA4C9200A5ACF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAD0E562AFA4C9200A5ACF8 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+    1FAD0E4D2AFA4C1500A5ACF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+    1FAD0E4F2AFA4C2100A5ACF8 /* GeneratedPluginRegistrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedPluginRegistrant.swift; sourceTree = "<group>"; };
+    1FAD0E512AFA4C4100A5ACF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+    1FAD0E522AFA4C6100A5ACF8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+    1FAD0E542AFA4C7400A5ACF8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+    1FAD0E562AFA4C9200A5ACF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+    1FAD0E5B2AFA4CC700A5ACF8 /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+    1FAD0E462AFA4BFD00A5ACF8 /* Frameworks */ = {
+      isa = PBXFrameworksBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+    1FAD0E432AFA4BFD00A5ACF8 = {
+      isa = PBXGroup;
+      children = (
+        1FAD0E5A2AFA4CC700A5ACF8 /* Products */,
+        1FAD0E5C2AFA4CF300A5ACF8 /* Runner */,
+      );
+      sourceTree = "<group>";
+    };
+    1FAD0E5A2AFA4CC700A5ACF8 /* Products */ = {
+      isa = PBXGroup;
+      children = (
+        1FAD0E5B2AFA4CC700A5ACF8 /* Runner.app */,
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+    1FAD0E5C2AFA4CF300A5ACF8 /* Runner */ = {
+      isa = PBXGroup;
+      children = (
+        1FAD0E4D2AFA4C1500A5ACF8 /* AppDelegate.swift */,
+        1FAD0E4F2AFA4C2100A5ACF8 /* GeneratedPluginRegistrant.swift */,
+        1FAD0E562AFA4C9200A5ACF8 /* Assets.xcassets */,
+        1FAD0E522AFA4C6100A5ACF8 /* Main.storyboard */,
+        1FAD0E542AFA4C7400A5ACF8 /* LaunchScreen.storyboard */,
+        1FAD0E512AFA4C4100A5ACF8 /* Info.plist */,
+      );
+      path = Runner;
+      sourceTree = "<group>";
+    };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+    1FAD0E482AFA4BFD00A5ACF8 /* Runner */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 1FAD0E582AFA4C9900A5ACF8 /* Build configuration list for PBXNativeTarget "Runner" */;
+      buildPhases = (
+        1FAD0E452AFA4BFD00A5ACF8 /* Sources */,
+        1FAD0E462AFA4BFD00A5ACF8 /* Frameworks */,
+        1FAD0E472AFA4BFD00A5ACF8 /* Resources */,
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = Runner;
+      productName = Runner;
+      productReference = 1FAD0E5B2AFA4CC700A5ACF8 /* Runner.app */;
+      productType = "com.apple.product-type.application";
+    };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+    1FAD0E442AFA4BFD00A5ACF8 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastSwiftUpdateCheck = 1400;
+        LastUpgradeCheck = 1400;
+        TargetAttributes = {
+          1FAD0E482AFA4BFD00A5ACF8 = {
+            CreatedOnToolsVersion = 14.0;
+          };
+        };
+      };
+      buildConfigurationList = 1FAD0E592AFA4C9900A5ACF8 /* Build configuration list for PBXProject "Runner" */;
+      compatibilityVersion = "Xcode 14.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+        Base,
+      );
+      mainGroup = 1FAD0E432AFA4BFD00A5ACF8;
+      productRefGroup = 1FAD0E5A2AFA4CC700A5ACF8 /* Products */;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        1FAD0E482AFA4BFD00A5ACF8 /* Runner */,
+      );
+    };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+    1FAD0E472AFA4BFD00A5ACF8 /* Resources */ = {
+      isa = PBXResourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        1FAD0E552AFA4C7400A5ACF8 /* LaunchScreen.storyboard in Resources */,
+        1FAD0E572AFA4C9200A5ACF8 /* Assets.xcassets in Resources */,
+        1FAD0E532AFA4C6100A5ACF8 /* Main.storyboard in Resources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+    1FAD0E452AFA4BFD00A5ACF8 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        1FAD0E4E2AFA4C1500A5ACF8 /* AppDelegate.swift in Sources */,
+        1FAD0E502AFA4C2100A5ACF8 /* GeneratedPluginRegistrant.swift in Sources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+    1FAD0E5D2AFA4CFB00A5ACF8 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+        SWIFT_VERSION = 5.0;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.napster.app";
+        CODE_SIGN_STYLE = Automatic;
+        DEVELOPMENT_TEAM = "";
+        INFOPLIST_FILE = Runner/Info.plist;
+      };
+      name = Debug;
+    };
+    1FAD0E5E2AFA4CFB00A5ACF8 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+        SWIFT_VERSION = 5.0;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.napster.app";
+        CODE_SIGN_STYLE = Automatic;
+        DEVELOPMENT_TEAM = "";
+        INFOPLIST_FILE = Runner/Info.plist;
+      };
+      name = Release;
+    };
+    1FAD0E5F2AFA4CFB00A5ACF8 /* Profile */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+        SWIFT_VERSION = 5.0;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.napster.app";
+        CODE_SIGN_STYLE = Automatic;
+        DEVELOPMENT_TEAM = "";
+        INFOPLIST_FILE = Runner/Info.plist;
+      };
+      name = Profile;
+    };
+    1FAD0E602AFA4CFB00A5ACF8 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ANALYZER_NONNULL = YES;
+        CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+        CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+        CLANG_ENABLE_OBJC_ARC = YES;
+        CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+        CODE_SIGN_STYLE = Automatic;
+        COPY_PHASE_STRIP = NO;
+        DEBUG_INFORMATION_FORMAT = dwarf;
+        ENABLE_BITCODE = NO;
+        GCC_DYNAMIC_NO_PIC = NO;
+        GCC_NO_COMMON_BLOCKS = YES;
+        GCC_OPTIMIZATION_LEVEL = 0;
+        INFOPLIST_FILE = Runner/Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.napster.app";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+      };
+      name = Debug;
+    };
+    1FAD0E612AFA4CFB00A5ACF8 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ANALYZER_NONNULL = YES;
+        CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+        CLANG_ENABLE_OBJC_ARC = YES;
+        CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+        CODE_SIGN_STYLE = Automatic;
+        ENABLE_BITCODE = NO;
+        INFOPLIST_FILE = Runner/Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.napster.app";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+      };
+      name = Release;
+    };
+    1FAD0E622AFA4CFB00A5ACF8 /* Profile */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ANALYZER_NONNULL = YES;
+        CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+        CLANG_ENABLE_OBJC_ARC = YES;
+        CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+        CODE_SIGN_STYLE = Automatic;
+        ENABLE_BITCODE = NO;
+        INFOPLIST_FILE = Runner/Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.napster.app";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+      };
+      name = Profile;
+    };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+    1FAD0E582AFA4C9900A5ACF8 /* Build configuration list for PBXNativeTarget "Runner" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1FAD0E5D2AFA4CFB00A5ACF8 /* Debug */,
+        1FAD0E5E2AFA4CFB00A5ACF8 /* Release */,
+        1FAD0E5F2AFA4CFB00A5ACF8 /* Profile */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    1FAD0E592AFA4C9900A5ACF8 /* Build configuration list for PBXProject "Runner" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1FAD0E602AFA4CFB00A5ACF8 /* Debug */,
+        1FAD0E612AFA4CFB00A5ACF8 /* Release */,
+        1FAD0E622AFA4CFB00A5ACF8 /* Profile */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+/* End XCConfigurationList section */
+  };
+  rootObject = 1FAD0E442AFA4BFD00A5ACF8 /* Project object */;
+}
